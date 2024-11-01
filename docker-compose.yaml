@@ -45,7 +45,7 @@ services:
     restart: always
     networks:
       airflow_network:
-        ipv4_address: 172.18.0.4  # Static IP for MinIO
+#        ipv4_address: 172.18.0.4  # Static IP for MinIO
 
 
   postgres:
